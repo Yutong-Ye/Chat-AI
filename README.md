@@ -1,8 +1,49 @@
+# Chat AI Support
+
+A real-time, AI-powered support assistant built with Next.js. This project provides a smooth and scalable chat interface that integrates with AI models to respond to user queries instantly.
+
+---
+
+## 🚀 Features
+
+- Real-time AI responses using API integration
+- Modern UI built with **Next.js 13 App Router**
+- Optimized font loading with `next/font`
+- Modular and scalable project structure
+- Easy to deploy on platforms like **Vercel**
+- Docker-ready (optional)
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: Next.js (React), Tailwind CSS (optional)
+- **AI Integration**: OpenAI or Hugging Face APIs (add your own keys)
+- **Backend**: Next.js API routes or external API service
+- **Deployment**: Vercel / Docker
+- **Version Control**: Git + GitHub
+
+---
+
+## 🧑‍💻 Getting Started
+
+Clone the project:
+
+```bash
+git clone https://github.com/Yutong-Ye/Chat-AI
+cd chat-ai-support
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+First, Install dependencies:
 
-First, run the development server:
+npm install
+# or
+yarn install
+
+Then, run the development server:
 
 ```bash
 npm run dev
