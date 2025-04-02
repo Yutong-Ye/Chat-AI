@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <!-- Description of the service -->
+    <key>Label</key>
+    <string>com.yutong.chatsupport</string>
+
+    <!-- Program path (adjust to the location of your Node.js and the entry point of your app) -->
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/node</string> <!-- Path to Node.js -->
+      <string>/Users/yutongye/chatsupport/app.js</string> <!-- Path to your main app file -->
+    </array>
+
+    <!-- Working directory (your app directory) -->
+    <key>WorkingDirectory</key>
+    <string>/Users/yutongye/chatsupport</string>
+
+    <!-- Environment variables -->
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>NODE_ENV</key>
+      <string>production</string>
+    </dict>
+
+    <!-- Run service as a specific user -->
+    <key>UserName</key>
+    <string>yutongye</string>
+
+    <!-- When to run the service -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Standard output and error logs -->
+    <key>StandardOutPath</key>
+    <string>/Users/yutongye/chatsupport/chatsupport.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/yutongye/chatsupport/chatsupport.error.log</string>
+  </dict>
+</plist>
+
